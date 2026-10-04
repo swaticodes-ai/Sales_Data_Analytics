@@ -101,3 +101,14 @@ print("\nBest-Performing Category:", best_category)
 best_region = region_sales.idxmax()
 
 print("\nBest-Performing Region:", best_region)
+
+# Key Insights
+highest_sales_month = monthly_sales.idxmax()
+
+print("\n--- KEY INSIGHTS ---")
+print("Total Revenue:", total_sales)
+print("Best-Selling Product:", best_product)
+print("Highest Revenue Product:", highest_revenue_product)
+print("Best-Performing Region:", best_region)
+print("Best-Performing Category:", best_category)
+print("Highest Sales Month:", highest_sales_month)
